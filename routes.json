@@ -1,0 +1,3 @@
+{
+    "/orders\\?search=:q": "/orders?q=:q"
+}

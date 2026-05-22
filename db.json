@@ -1,0 +1,336 @@
+{
+  "orders": [
+    {
+      "id": "b9c4b2f1-9f53-4c3f-9c2e-1d8dc92f0a11",
+      "number": "ORD-2025-000123",
+      "customer": {
+        "id": "c1",
+        "name": "Mina Smith",
+        "email": "mina@example.com"
+      },
+      "totalCents": 12999,
+      "createdAt": "2025-05-12T09:43:00.000Z",
+      "status": "pending",
+      "items": [
+        {
+          "sku": "SKU-1",
+          "name": "Wireless Mouse",
+          "qty": 1,
+          "priceCents": 2999
+        },
+        {
+          "sku": "SKU-2",
+          "name": "Keyboard",
+          "qty": 1,
+          "priceCents": 9999
+        }
+      ]
+    },
+    {
+      "id": "7d0e3d3e-8b40-47d0-9a87-0f3ef1a6c2ab",
+      "number": "ORD-2025-000124",
+      "customer": {
+        "id": "c2",
+        "name": "Carlos Diaz",
+        "email": "carlos@example.com"
+      },
+      "totalCents": 5599,
+      "createdAt": "2025-06-01T14:20:00.000Z",
+      "status": "fulfilled",
+      "items": [
+        {
+          "sku": "SKU-3",
+          "name": "USB-C Cable",
+          "qty": 2,
+          "priceCents": 1299
+        },
+        {
+          "sku": "SKU-4",
+          "name": "Phone Stand",
+          "qty": 1,
+          "priceCents": 3001
+        }
+      ]
+    },
+    {
+      "id": "a1b2c3d4-0003-4000-9000-000000000003",
+      "number": "ORD-2025-000125",
+      "customer": {
+        "id": "c3",
+        "name": "Liam Chen",
+        "email": "liam@example.com"
+      },
+      "totalCents": 8999,
+      "createdAt": "2025-06-02T10:00:00.000Z",
+      "status": "pending",
+      "items": [
+        {
+          "sku": "SKU-5",
+          "name": "Bluetooth Speaker",
+          "qty": 1,
+          "priceCents": 8999
+        }
+      ]
+    },
+    {
+      "id": "a1b2c3d4-0004-4000-9000-000000000004",
+      "number": "ORD-2025-000126",
+      "customer": {
+        "id": "c4",
+        "name": "Sofia Lee",
+        "email": "sofia@example.com"
+      },
+      "totalCents": 4999,
+      "createdAt": "2025-06-03T11:00:00.000Z",
+      "status": "fulfilled",
+      "items": [
+        {
+          "sku": "SKU-6",
+          "name": "Webcam",
+          "qty": 1,
+          "priceCents": 4999
+        }
+      ]
+    },
+    {
+      "id": "a1b2c3d4-0005-4000-9000-000000000005",
+      "number": "ORD-2025-000127",
+      "customer": {
+        "id": "c5",
+        "name": "Noah Patel",
+        "email": "noah@example.com"
+      },
+      "totalCents": 15999,
+      "createdAt": "2025-06-04T12:00:00.000Z",
+      "status": "pending",
+      "items": [
+        {
+          "sku": "SKU-7",
+          "name": "Monitor",
+          "qty": 1,
+          "priceCents": 15999
+        }
+      ]
+    },
+    {
+      "id": "a1b2c3d4-0006-4000-9000-000000000006",
+      "number": "ORD-2025-000128",
+      "customer": {
+        "id": "c6",
+        "name": "Emma Brown",
+        "email": "emma@example.com"
+      },
+      "totalCents": 2999,
+      "createdAt": "2025-06-05T13:00:00.000Z",
+      "status": "fulfilled",
+      "items": [
+        {
+          "sku": "SKU-8",
+          "name": "Mouse Pad",
+          "qty": 1,
+          "priceCents": 2999
+        }
+      ]
+    },
+    {
+      "id": "a1b2c3d4-0007-4000-9000-000000000007",
+      "number": "ORD-2025-000129",
+      "customer": {
+        "id": "c7",
+        "name": "Olivia Green",
+        "email": "olivia@example.com"
+      },
+      "totalCents": 10999,
+      "createdAt": "2025-06-06T14:00:00.000Z",
+      "status": "pending",
+      "items": [
+        {
+          "sku": "SKU-9",
+          "name": "External SSD",
+          "qty": 1,
+          "priceCents": 10999
+        }
+      ]
+    },
+    {
+      "id": "a1b2c3d4-0008-4000-9000-000000000008",
+      "number": "ORD-2025-000130",
+      "customer": {
+        "id": "c8",
+        "name": "Lucas White",
+        "email": "lucas@example.com"
+      },
+      "totalCents": 7999,
+      "createdAt": "2025-06-07T15:00:00.000Z",
+      "status": "fulfilled",
+      "items": [
+        {
+          "sku": "SKU-10",
+          "name": "Desk Lamp",
+          "qty": 1,
+          "priceCents": 7999
+        }
+      ]
+    },
+    {
+      "id": "a1b2c3d4-0009-4000-9000-000000000009",
+      "number": "ORD-2025-000131",
+      "customer": {
+        "id": "c9",
+        "name": "Ava Black",
+        "email": "ava@example.com"
+      },
+      "totalCents": 3999,
+      "createdAt": "2025-06-08T16:00:00.000Z",
+      "status": "pending",
+      "items": [
+        {
+          "sku": "SKU-11",
+          "name": "USB Hub",
+          "qty": 1,
+          "priceCents": 3999
+        }
+      ]
+    },
+    {
+      "id": "a1b2c3d4-0010-4000-9000-000000000010",
+      "number": "ORD-2025-000132",
+      "customer": {
+        "id": "c10",
+        "name": "Ethan King",
+        "email": "ethan@example.com"
+      },
+      "totalCents": 12999,
+      "createdAt": "2025-06-09T17:00:00.000Z",
+      "status": "fulfilled",
+      "items": [
+        {
+          "sku": "SKU-12",
+          "name": "Smart Watch",
+          "qty": 1,
+          "priceCents": 12999
+        }
+      ]
+    },
+    {
+      "id": "a1b2c3d4-0050-4000-9000-000000000050",
+      "number": "ORD-2025-000172",
+      "customer": {
+        "id": "c50",
+        "name": "Zara Fox",
+        "email": "zara@example.com"
+      },
+      "totalCents": 9999,
+      "createdAt": "2025-07-30T10:00:00.000Z",
+      "status": "fulfilled",
+      "items": [
+        {
+          "sku": "SKU-50",
+          "name": "Wireless Charger",
+          "qty": 1,
+          "priceCents": 9999
+        }
+      ]
+    },
+    {
+      "id": "a1b2c3d4-0011-4000-9000-000000000011",
+      "number": "ORD-2025-000133",
+      "customer": {
+        "id": "c11",
+        "name": "Mason Hill",
+        "email": "mason@example.com"
+      },
+      "totalCents": 4599,
+      "createdAt": "2025-06-10T10:00:00.000Z",
+      "status": "pending",
+      "items": [
+        {
+          "sku": "SKU-13",
+          "name": "Laptop Sleeve",
+          "qty": 1,
+          "priceCents": 4599
+        }
+      ]
+    },
+    {
+      "id": "a1b2c3d4-0012-4000-9000-000000000012",
+      "number": "ORD-2025-000134",
+      "customer": {
+        "id": "c12",
+        "name": "Ella Scott",
+        "email": "ella@example.com"
+      },
+      "totalCents": 2099,
+      "createdAt": "2025-06-11T11:00:00.000Z",
+      "status": "fulfilled",
+      "items": [
+        {
+          "sku": "SKU-14",
+          "name": "Stylus Pen",
+          "qty": 1,
+          "priceCents": 2099
+        }
+      ]
+    },
+    {
+      "id": "a1b2c3d4-0013-4000-9000-000000000013",
+      "number": "ORD-2025-000135",
+      "customer": {
+        "id": "c13",
+        "name": "Jack Turner",
+        "email": "jack@example.com"
+      },
+      "totalCents": 7599,
+      "createdAt": "2025-06-12T12:00:00.000Z",
+      "status": "pending",
+      "items": [
+        {
+          "sku": "SKU-15",
+          "name": "Portable HDD",
+          "qty": 1,
+          "priceCents": 7599
+        }
+      ]
+    },
+    {
+      "id": "a1b2c3d4-0014-4000-9000-000000000014",
+      "number": "ORD-2025-000136",
+      "customer": {
+        "id": "c14",
+        "name": "Grace Kim",
+        "email": "grace@example.com"
+      },
+      "totalCents": 3499,
+      "createdAt": "2025-06-13T13:00:00.000Z",
+      "status": "fulfilled",
+      "items": [
+        {
+          "sku": "SKU-16",
+          "name": "HDMI Adapter",
+          "qty": 1,
+          "priceCents": 3499
+        }
+      ]
+    },
+    {
+      "id": "a1b2c3d4-0015-4000-9000-000000000015",
+      "number": "ORD-2025-000137",
+      "customer": {
+        "id": "c15",
+        "name": "Henry Wood",
+        "email": "henry@example.com"
+      },
+      "totalCents": 6499,
+      "createdAt": "2025-06-14T14:00:00.000Z",
+      "status": "pending",
+      "items": [
+        {
+          "sku": "SKU-17",
+          "name": "Wireless Earbuds",
+          "qty": 1,
+          "priceCents": 6499
+        }
+      ]
+    }
+  ]
+}

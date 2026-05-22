@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/api.ts","./src/main.tsx","./src/types.ts","./src/components/statusbadge.tsx","./src/components/orderdetail.tsx","./src/components/table.tsx","./src/hooks/useorders.ts","./src/lib/usedebouncedvalue.ts","./src/toast/toastprovider.tsx"],"version":"5.9.3"}

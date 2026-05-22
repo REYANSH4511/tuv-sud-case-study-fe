@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Orders Dashboard</title>
+    <style>
+      :root {
+        --gap: 12px;
+        --radius: 12px;
+        --muted: #f6f7f9;
+      }
+      body {
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+          Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+        margin: 0;
+      }
+      .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 24px;
+      }
+      .card {
+        background: white;
+        border: 1px solid #eee;
+        border-radius: var(--radius);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+      }
+      .row {
+        display: flex;
+        gap: var(--gap);
+        align-items: center;
+      }
+      .controls {
+        display: grid;
+        grid-template-columns: 1fr 160px 160px;
+        gap: var(--gap);
+      }
+      input,
+      select,
+      button {
+        padding: 10px 12px;
+        border-radius: 10px;
+        border: 1px solid #ddd;
+        background: white;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        text-align: left;
+        padding: 12px;
+        border-bottom: 1px solid #f0f0f0;
+      }
+      th button {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+      }
+      .badge {
+        padding: 4px 10px;
+        border-radius: 999px;
+        font-size: 12px;
+        display: inline-block;
+      }
+      .badge.pending {
+        background: #fff7ed;
+        color: #9a3412;
+      }
+      .badge.fulfilled {
+        background: #ecfdf5;
+        color: #065f46;
+      }
+      .badge.cancelled {
+        background: #fef2f2;
+        color: #991b1b;
+      }
+      .drawer {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 420px;
+        height: 100vh;
+        background: #fff;
+        border-left: 1px solid #eee;
+        box-shadow: -8px 0 24px rgba(0, 0, 0, 0.06);
+        padding: 20px;
+        overflow: auto;
+      }
+      .overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.08);
+      }
+      .toast {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #111;
+        color: #fff;
+        padding: 12px 14px;
+        border-radius: 10px;
+      }
+      .muted {
+        color: #667085;
+      }
+      .spacer {
+        height: 8px;
+      }
+      .pagination {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="toaster"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
