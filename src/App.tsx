@@ -40,7 +40,10 @@ function OrdersScreen() {
       { id, status },
       {
         onSuccess: () => {
-          toast.push({ message: `Status updated to ${status}`, kind: "success" });
+          toast.push({
+            message: `Status updated to ${status}`,
+            kind: "success",
+          });
         },
         onError: () => {
           toast.push({ message: "Failed to update status", kind: "error" });
@@ -96,8 +99,6 @@ function OrdersScreen() {
     </div>
   );
 }
-
-
 
 /**
  * Pagination controls.
